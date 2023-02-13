@@ -1,7 +1,7 @@
 About kelp-o-matic
 ==================
 
-Home: https://github.com/hakaiInstitute/kelp-o-matic
+Home: https://github.com/HakaiInstitute/kelp-o-matic
 
 Package license: MIT
 
@@ -9,9 +9,9 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kelp-o-matic-fe
 
 Summary: Segmentation Tools for Remotely Sensed RPAS Imagery
 
-Development: https://github.com/hakaiInstitute/kelp-o-matic
+Development: https://github.com/HakaiInstitute/kelp-o-matic
 
-Documentation: https://hakai-segmentation.readthedocs.io
+Documentation: https://kelp-o-matic.readthedocs.io
 
 Current build status
 ====================
