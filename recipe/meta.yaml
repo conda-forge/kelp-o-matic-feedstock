@@ -45,7 +45,7 @@ about:
   summary: Segmentation Tools for Remotely Sensed RPAS Imagery
   license: MIT
   license_file: LICENSE.txt
-  doc_url: "https://hakai-segmentation.readthedocs.io"
+  doc_url: "https://kelp-o-matic.readthedocs.io"
   dev_url: "https://github.com/hakaiInstitute/kelp-o-matic"
 
 extra:
