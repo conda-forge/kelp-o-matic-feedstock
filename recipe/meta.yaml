@@ -41,12 +41,12 @@ test:
     - pip
 
 about:
-  home: https://github.com/hakaiInstitute/kelp-o-matic
+  home: https://github.com/HakaiInstitute/kelp-o-matic
   summary: Segmentation Tools for Remotely Sensed RPAS Imagery
   license: MIT
   license_file: LICENSE.txt
   doc_url: "https://kelp-o-matic.readthedocs.io"
-  dev_url: "https://github.com/hakaiInstitute/kelp-o-matic"
+  dev_url: "https://github.com/HakaiInstitute/kelp-o-matic"
 
 extra:
   recipe-maintainers:
