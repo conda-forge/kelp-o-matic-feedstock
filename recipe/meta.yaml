@@ -14,7 +14,7 @@ build:
     - kom = kelp_o_matic.cli:cli
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -41,12 +41,12 @@ test:
     - pip
 
 about:
-  home: https://github.com/hakaiInstitute/kelp-o-matic
+  home: https://github.com/HakaiInstitute/kelp-o-matic
   summary: Segmentation Tools for Remotely Sensed RPAS Imagery
   license: MIT
   license_file: LICENSE.txt
-  doc_url: "https://hakai-segmentation.readthedocs.io"
-  dev_url: "https://github.com/hakaiInstitute/kelp-o-matic"
+  doc_url: "https://kelp-o-matic.readthedocs.io"
+  dev_url: "https://github.com/HakaiInstitute/kelp-o-matic"
 
 extra:
   recipe-maintainers:
