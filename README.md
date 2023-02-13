@@ -1,4 +1,4 @@
-About kelp-o-matic
+About Kelp-O-Matic
 ==================
 
 Home: https://github.com/HakaiInstitute/kelp-o-matic
