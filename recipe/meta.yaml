@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/kelp-o-matic-{{ version }}.tar.gz
-  sha256: 54beb8ed436375513ab6cf4756b69bb46c709a9eab97cd3ba4df3ae33f9549a8
+  sha256: 506a64b5def4a8b7520f33a332f582cba3e607e36abe388429d579339d7edcd8
 
 build:
   entry_points:
