@@ -1,5 +1,5 @@
 {% set name = "kelp-o-matic" %}
-{% set version = "0.5.0" %}
+{% set version = "0.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,14 +7,14 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/kelp-o-matic-{{ version }}.tar.gz
-  sha256: 54beb8ed436375513ab6cf4756b69bb46c709a9eab97cd3ba4df3ae33f9549a8
+  sha256: 506a64b5def4a8b7520f33a332f582cba3e607e36abe388429d579339d7edcd8
 
 build:
   entry_points:
     - kom = kelp_o_matic.cli:cli
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
