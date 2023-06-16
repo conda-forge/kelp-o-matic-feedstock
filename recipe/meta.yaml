@@ -1,5 +1,5 @@
 {% set name = "kelp-o-matic" %}
-{% set version = "0.5.2" %}
+{% set version = "0.5.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/kelp-o-matic-{{ version }}.tar.gz
-  sha256: eb7645cef2507c7b2d071043387a5b7c6beb503176c33165cabba50096ff541d
+  sha256: d7979f0f930e47bcd893eeaa80de265344cea00acea90b98feef3c458d173127
 
 build:
   entry_points:
@@ -45,8 +45,8 @@ about:
   summary: Segmentation Tools for Remotely Sensed RPAS Imagery
   license: MIT
   license_file: LICENSE.txt
-  doc_url: "https://kelp-o-matic.readthedocs.io"
-  dev_url: "https://github.com/HakaiInstitute/kelp-o-matic"
+  doc_url: https://kelp-o-matic.readthedocs.io
+  dev_url: https://github.com/HakaiInstitute/kelp-o-matic
 
 extra:
   recipe-maintainers:
