@@ -18,16 +18,19 @@ build:
 
 requirements:
   host:
-    - python >=3.7,<3.11
+    - python ~=3.9,<4.0
+    - poetry-core
     - pip
   run:
-    - python >=3.7,<3.11
-    - typer >=0.4,<1.dev0
-    - numpy >=1.16,<2.dev0
-    - pytorch >=1.10,<2.dev0
-    - rasterio >=1.2,<2.dev0
-    - torchvision >=0.11,<1.dev0
-    - tqdm >=4.62,<5.dev0
+    - python ~=3.9,<4.0
+    - numpy ~=1.24.2
+    - pytorch ~=2.0.0, !=2.0.1
+    - rasterio ~=1.3.7
+    - torchvision ~=0.15.0
+    - tqdm ~=4.65.0
+    - typer ~=0.9.0
+  run_constrained:
+    - pytorch-cuda ~= 11.7
 
 test:
   imports:
