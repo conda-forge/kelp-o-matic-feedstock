@@ -1,5 +1,5 @@
 {% set name = "kelp-o-matic" %}
-{% set version = "0.6.1" %}
+{% set version = "0.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 632b2d78a531879897e7853b4b15ac82e727e4f774c0821c9d7b1d2492f60539
+  sha256: 67722a1850ca6d028ab834541e63b794e20ef1bd410d9622f11570c6e71c5c56
 
 build:
   entry_points:
