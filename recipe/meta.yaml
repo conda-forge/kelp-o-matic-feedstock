@@ -1,5 +1,5 @@
 {% set name = "kelp-o-matic" %}
-{% set version = "0.9.0" %}
+{% set version = "0.9.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 22df3cdf21e41effa01702b2bdc54e35984d282db19efad3e4d4a3d12efd549a
+  sha256: 327de65dd22008e0faea4408227ed83bcfcd45e1a942467421f1a03029ff0e50
 
 build:
   entry_points:
@@ -31,7 +31,7 @@ requirements:
     - torchvision ~=0.16.1
     - typer ~=0.9.0
   run_constrained:
-    - pytorch-cuda ~= 11.8
+    - pytorch-cuda >=11.8
 
 test:
   imports:
