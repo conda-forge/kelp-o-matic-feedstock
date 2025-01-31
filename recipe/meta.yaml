@@ -1,6 +1,6 @@
 {% set name = "kelp-o-matic" %}
 {% set version = "0.13.0" %}
-{% set python_min = "3.9" %}
+{% set python_min = "3.10" %}
 
 package:
   name: {{ name|lower }}
@@ -20,7 +20,8 @@ build:
 requirements:
   host:
     - python {{ python_min }}
-    - poetry-core
+    - uv
+    - hatch
     - pip
   run:
     - python >={{ python_min }}
@@ -29,8 +30,8 @@ requirements:
     - fsspec
     - rasterio >=1.3.7, <2
     - rich >=13.5, <14
-    - torchvision ~=0.16.1
-    - typer ~=0.9.0
+    - torchvision >=0.16.1
+    - typer >=0.9.0
     - packaging >=24.1, <25
   run_constrained:
     - pytorch-cuda >=11.8
