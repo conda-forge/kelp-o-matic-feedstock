@@ -51,7 +51,7 @@ about:
   home: https://github.com/HakaiInstitute/kelp-o-matic
   summary: Habitat segmentation with AI
   license: MIT
-  license_file: LICENSE.txt
+  license_file: LICENSE
   doc_url: https://kelp-o-matic.readthedocs.io
   dev_url: https://github.com/HakaiInstitute/kelp-o-matic
 
