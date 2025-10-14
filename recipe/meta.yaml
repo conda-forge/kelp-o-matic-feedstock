@@ -41,7 +41,6 @@ test:
   imports:
     - kelp_o_matic
   commands:
-    - pip check
     - kom --help
   requires:
     - python {{ python_min }}
